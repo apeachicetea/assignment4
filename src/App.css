@@ -1,0 +1,10 @@
+.btn-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-box button {
+  margin-right: 5px;
+  cursor: pointer;
+}

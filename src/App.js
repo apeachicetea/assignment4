@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState, useEffect, Fragment } from "react";
 import axios from "axios";
 import {
@@ -83,7 +84,7 @@ function App() {
           <button
             key={label}
             style={{
-              backgroundColor: label === district ? "teal" : "",
+              backgroundColor: label === district ? "skyblue" : "",
             }}
             onClick={() => setDistrict(label)}
           >
